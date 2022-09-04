@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+main{
+    display: block;
+}
+#navbar>header {
+    color:black;
+    border-bottom:1px solid black;
+    height: 50px;
+    padding: 20px 20px ;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    overflow-y: scroll;
+}
+
+#navbar > a {
+    text-decoration: none;
+    color: #4d4e53;
+    border-bottom: 1px solid black;
+    height: 50px;
+    padding: 15px 30px;
+    
+}
+
+#navbar >a:hover{
+    background-color: black;
+    color: white;
+}
+div{
+    position: absolute;
+    display: block;
+    margin:15px 50px 15px 350px;
+    overflow: hidden;
+}
+
+section >header {
+    font-size: 30px;
+}
+
+section {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+section>header,p,code,ul,li {
+    line-height: 1.8em;
+}
+    
+section>code{
+    background-color: rgb(218, 213, 213);
+    padding: 20px;
+    display: block;
+    width: ;
+
+
+}
+.reference{
+    text-decoration: none;
+}
+
+#developer {
+    text-align: right;
+    font-style: italic;
+    font-family: monospace;
+}
+
+#developer >a {
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width:720px){
+    
+    #navbar {
+        position: relative;
+        width: 100vw;
+        height: 35vh;
+        overflow-y: scroll;
+    }
+    #navbar >a{
+        position: relative;
+    }
+    div{
+        margin: auto auto auto;
+        padding: 10px 30px;
+        
+    }
+
+}
