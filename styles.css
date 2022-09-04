@@ -90,6 +90,7 @@ section>code{
         width: auto;
         height: 25vh;
         overflow-y: scroll;
+        scrollbar-width: 2px;
     }
     .content{
         width: auto;
